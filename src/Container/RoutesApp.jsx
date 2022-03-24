@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
 import Titulo from '../components/Titulo/Titulo';
-import ListItem from '../components/ListItem/ListItem'
+import ItemListContainer from '../components/ItemListContainer/ItemListContainer'
 
 
 function RoutesApp() {
@@ -14,7 +14,7 @@ function RoutesApp() {
      
       <NavBar/>
 
-      <ListItem greeting='List item' />
+      <ItemListContainer greeting='List item' />
 
       <Titulo 
             tituloProps='titulo'
