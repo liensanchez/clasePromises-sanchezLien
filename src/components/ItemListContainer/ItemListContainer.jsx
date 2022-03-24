@@ -21,8 +21,10 @@ const task = new Promise ( (resolve, reject) => {
 
 } ) 
 
+
+
 function ItemListContainer({greeting}) {
-  
+
   const [productos, setProductos]=useState(0)
 
   //let productos=0
@@ -48,6 +50,8 @@ function ItemListContainer({greeting}) {
 
   } 
 
+
+
   const restaProductos=()=>{
 
     setProductos(productos-1)
@@ -65,6 +69,8 @@ function ItemListContainer({greeting}) {
   .then () //en cada then hago una sola tarea
 
   .finally (() => console.log ('siempre a lo ultimo') ) 
+
+
 
   return (
 
@@ -84,5 +90,7 @@ function ItemListContainer({greeting}) {
   )
 
 }
+
+
 
 export default ItemListContainer
