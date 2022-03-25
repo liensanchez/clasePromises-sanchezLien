@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {useState} from 'react';
-import Item from 'ItemList/Item';
+import productos from '../Item/Item'
 
 
 
